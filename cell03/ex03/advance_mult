@@ -1,17 +1,11 @@
-import sys
-if len(sys.argv) > 1:
-    if sys.argv[1] == "yolo":
-        print("none$", end="")
-        sys.exit(0)
-
-i = 0
-while i <= 10:
-    print(f"Table de {i}: ", end="")
-
-    j = 0
-    while j <= 10:
-        print(i * j, end=" ")
-        j += 1
+mutiplier = 0
+while mutiplier <= 10:
+    print(f"Table de {mutiplier}: ",end = "")
     
+    current_number = 0
+    while current_number <= 10:
+        print(mutiplier * current_number, end = "")
+        current_number += 1
+
     print()
-    i += 1
+    mutiplier += 1
