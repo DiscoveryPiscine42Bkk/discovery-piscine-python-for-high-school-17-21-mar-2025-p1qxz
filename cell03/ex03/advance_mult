@@ -4,7 +4,7 @@ while mutiplier <= 10:
     
     current_number = 0
     while current_number <= 10:
-        print(mutiplier * current_number, end = "")
+        print(mutiplier * current_number, end = " ")
         current_number += 1
 
     print()
